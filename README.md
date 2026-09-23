@@ -23,10 +23,10 @@ Set the required key in the same PowerShell session used to start the server:
 $env:OPENAI_API_KEY = "your-api-key"
 ```
 
-Optionally override the model (the default is `gpt-5.4-mini`):
+Optionally override the model (the default is `gpt-5.6-luna`):
 
 ```powershell
-$env:OPENAI_MODEL = "gpt-5.4-mini"
+$env:OPENAI_MODEL = "gpt-5.6-luna"
 ```
 
 The configured model must support the Responses API and structured outputs.
